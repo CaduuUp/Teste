@@ -1,4 +1,5 @@
 <?php
+
 /**
  * DATABASE
  */
@@ -19,8 +20,10 @@ define("CONF_URL_ADMIN", "/admin");
  */
 define("CONF_SITE_NAME", "MegaZorde");
 define("CONF_SITE_TITLE", "Faça seu cadastro no MegaZorde");
-define("CONF_SITE_DESC",
-    "MegaZorde é um site pra ver se eu to baum ou não");
+define(
+    "CONF_SITE_DESC",
+    "MegaZorde é um site pra ver se eu to baum ou não"
+);
 define("CONF_SITE_LANG", "pt_BR");
 define("CONF_SITE_DOMAIN", "up.com.br");
 define("CONF_SITE_ADDR_STREET", "Praça é Nossa");
@@ -63,6 +66,8 @@ define("CONF_VIEW_PATH", __DIR__ . "/../../shared/views");
 define("CONF_VIEW_EXT", "php");
 define("CONF_VIEW_THEME", "megaweb");
 define("CONF_VIEW_APP", "megaapp");
+define("CONF_VIEW_TELE", "teleweb");
+define("CONF_VIEW_MED", "medweb");
 
 /**
  * UPLOAD
