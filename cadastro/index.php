@@ -74,6 +74,27 @@ $route->post("/remove/{id}", "App:remove");
 $route->post("/support", "App:support");
 $route->post("/profile", "App:profile");
 
+/**
+ * WEB TELEMEDICINA 1
+ */
+$route->group("/tele");
+$route->get("/", "Tele:home");
+$route->get("/services", "Tele:services");
+$route->get("/about", "Tele:about");
+$route->get("/pricing", "Tele:pricing");
+
+/**
+ * WEB TELEMEDICINA 2
+ */
+$route->group("/med");
+$route->get("/", "Med:home");
+$route->get("/about", "Med:about");
+$route->get("/services", "Med:services");
+$route->get("/portfolio", "Med:portfolio");
+$route->get("/team", "Med:team");
+$route->get("/contact", "Med:contact");
+
+
 
 /**
  * ERROR ROUTES
